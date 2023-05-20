@@ -1,2 +1,16 @@
-# metamask_actions
-Automatization Python script for basic Metamask actions
+Automatization Python script for basic Metamask actions with AdsPower
+
+Для начала работы необходимо:
+1. Занести последовательно каждый с новой строки Account ID из AdsPower
+2. Предустановить Metamask в профиля AdsPower
+3. В файле main.py заменить значения пароля для Metamask, установленные в профилях (переменная PASSWORD)
+
+Скрипт содержит автоматизирующие действия на следующих этапах
+1. Ввод пароля метамаск
+2. Выбор счета для подключения
+3. Подключение кошелька к сайту
+4. Подтверждение транзакций
+
+Работает с версиями Metamask:
+- 10.26
+- 10.30
