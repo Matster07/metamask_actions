@@ -8,9 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from termcolor import cprint
 
-DELAY_BEFORE_ACTIONS = 1
 PASSWORD = '123456789'
-URL = 'https://syncswap.xyz/swap'
+DELAY_BEFORE_ACTIONS = 1
 
 def login(driver, password):
     # Пароль
@@ -84,7 +83,6 @@ def main(ads_id, password):
 
         with webdriver.Chrome(service=Service(chrome_driver), options=chrome_options) as driver:
             number_windows = len(driver.window_handles)
-            driver.get("https://app.uniswap.org/#/swap")
 
             while True:
                 try:
